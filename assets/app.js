@@ -24,3 +24,8 @@ menu.addEventListener("click", function () {
 // Adding event listners to remove mobile 
 menuLinks.addEventListener("click", hideMobile);
 navLogo.addEventListener("click", hideMobile);
+
+// Adding event listner for navlogo
+navLogo.addEventListener("click", function () {
+    window.location.href = "#about"
+})
